@@ -1,673 +1,593 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-08-03 15:43+0000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
 "Language: ru\n"
-"MIME-Version: 1.0\n"
+"Language-Team: none\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/custom_script.js:17
 msgid "%s is only executed upon completion of the %s command."
-msgstr ""
+msgstr "%s выполняется только после завершения команды %s."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:84
 msgid "Activate Blocklist"
-msgstr ""
+msgstr "Активировать черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:81
 msgid "Activating"
-msgstr ""
+msgstr "Активация"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:41
 msgid "Add new entries:"
-msgstr ""
+msgstr "Добавить новые записи:"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:88
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Расширенные настройки"
 
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:23
 msgid "Allowlist"
-msgstr ""
+msgstr "Белый список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:125
 msgid "Allowlist urls"
-msgstr ""
+msgstr "URL-адреса белого списка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:236
-msgid ""
-"An error occurred while checking update status (checking adblock-lean status)"
-msgstr ""
+msgid "An error occurred while checking update status (checking adblock-lean status)"
+msgstr "Произошла ошибка при проверке статуса обновления (проверка статуса adblock-lean)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:255
-msgid ""
-"An error occurred while checking update status (checking luci-app-adblock-"
-"lean status)"
-msgstr ""
+msgid "An error occurred while checking update status (checking luci-app-adblock-lean status)"
+msgstr "Произошла ошибка при проверке статуса обновления (проверка статуса luci-app-adblock-lean)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:287
-msgid ""
-"An error occurred while checking update status (missing current version)"
-msgstr ""
+msgid "An error occurred while checking update status (missing current version)"
+msgstr "Произошла ошибка при проверке статуса обновления (отсутствует текущая версия)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:271
 msgid "An error occurred while checking update status (missing package info)"
-msgstr ""
+msgstr "Произошла ошибка при проверке статуса обновления (отсутствует информация о пакете)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:228
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:304
 msgid "An update is available"
-msgstr ""
+msgstr "Доступно обновление"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:225
-msgid ""
-"An update is available, but it uses a newer config format than the LuCI App "
-"supports, so you will need to update the LuCI App before you can install the "
-"latest adblock-lean"
-msgstr ""
+msgid "An update is available, but it uses a newer config format than the LuCI App supports, so you will need to update the LuCI App before you can install the latest adblock-lean"
+msgstr "Доступно обновление, но оно использует более новый формат конфигурации, чем поддерживает приложение LuCI, поэтому вам необходимо обновить приложение LuCI, прежде чем вы сможете установить последнюю версию, оптимизированную для блокировки рекламы."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:125
-msgid ""
-"Based on your total memory size of %sMB, the recommended preset of %s has "
-"been selected."
-msgstr ""
+msgid "Based on your total memory size of %sMB, the recommended preset of %s has been selected."
+msgstr "Учитывая общий объем вашей памяти %sMB, была выбрана рекомендуемая предустановка %s."
 
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:31
 msgid "Blocklist"
-msgstr ""
+msgstr "Черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:201
 msgid "Blocklist is NOT active (paused)"
-msgstr ""
+msgstr "Черный список НЕ активен (приостановлено)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:208
 msgid "Blocklist is NOT active (stopped)"
-msgstr ""
+msgstr "Черный список НЕ активен (остановлен)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:186
 msgid "Blocklist is active. Good line count: %s. Last updated %d hour(s) ago."
-msgstr ""
+msgstr "Черный список активен. Хорошее количество строк: %s. Последнее обновление %d час назад."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:42
 msgid "Blocklist status"
-msgstr ""
+msgstr "Статус черного списка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:255
 msgid "Boot start delay (seconds)"
-msgstr ""
+msgstr "Задержка начала загрузки (секунды)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:197
-msgid ""
-"Call custom resport_success() and report_failure() functions when certain "
-"commands complete.<br />See <b>Custom Script</b> tab for more details."
-msgstr ""
+msgid "Call custom resport_success() and report_failure() functions when certain commands complete.<br />See <b>Custom Script</b> tab for more details."
+msgstr "Вызывайте пользовательские функции report_success() и report_failure() после завершения определенных команд.<br />Подробнее см. на вкладке <b>Пользовательский сценарий</b>."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-software.js:13
-msgid ""
-"Check the status panel above to see whether there are updates for one (or "
-"both) packages, and update as necessary."
-msgstr ""
+msgid "Check the status panel above to see whether there are updates for one (or both) packages, and update as necessary."
+msgstr "Проверьте панель состояния выше, чтобы узнать, есть ли обновления для одного (или обоих) пакетов, и обновите их при необходимости."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:26
 msgid "Click the Update button below the make the following automatic changes:"
-msgstr ""
+msgstr "Нажмите кнопку «Обновить» ниже, чтобы внести следующие автоматические изменения:"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:181
-msgid ""
-"Compress final blocklist, intermediate blocklist parts and the backup "
-"blocklist to save memory"
-msgstr ""
+msgid "Compress final blocklist, intermediate blocklist parts and the backup blocklist to save memory"
+msgstr "Сжимайте окончательный черный список, промежуточные части черного списка и резервный черный список для экономии памяти."
 
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:47
 msgid "Config"
-msgstr ""
+msgstr "Конфигурация"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:34
-msgid ""
-"Config modifications have been saved, reload adblock-lean for changes to "
-"take effect."
-msgstr ""
+msgid "Config modifications have been saved, reload adblock-lean for changes to take effect."
+msgstr "Изменения конфигурации сохранены. Чтобы изменения вступили в силу, перезагрузите Adblock-Lean."
 
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:39
 msgid "Custom Script"
-msgstr ""
+msgstr "Пользовательский скрипт"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:102
 msgid "Deactivate Blocklist"
-msgstr ""
+msgstr "Деактивировать черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:99
 msgid "Deactivating"
-msgstr ""
+msgstr "Деактивация"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:172
 msgid "Deduplication"
-msgstr ""
+msgstr "Дедупликация"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:74
 msgid "Disable Service"
-msgstr ""
+msgstr "Отключить службу"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:71
 msgid "Disabling"
-msgstr ""
+msgstr "Отключение"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:173
 msgid "ERROR: Test domain lookup failed"
-msgstr ""
+msgstr "ОШИБКА: не удалось выполнить поиск тестового домена."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:176
 msgid "ERROR: Test domain resolved to 0.0.0.0"
-msgstr ""
+msgstr "ОШИБКА: тестовый домен разрешен до 0.0.0.0."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/create-config.js:15
-msgid ""
-"Either way, you should now <a %s>manually create a config file following the "
-"instructions here</a>."
-msgstr ""
+msgid "Either way, you should now <a %s>manually create a config file following the instructions here</a>."
+msgstr "В любом случае, теперь вам следует <a %s>вручную создать файл конфигурации, следуя инструкциям здесь </a>."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:68
 msgid "Enable Service"
-msgstr ""
+msgstr "Включить службу"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:196
 msgid "Enable custom script"
-msgstr ""
+msgstr "Включить пользовательский скрипт"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:65
 msgid "Enabling"
-msgstr ""
+msgstr "Включение"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:195
 msgid "Error checking blocklist status, try again in a minute"
-msgstr ""
+msgstr "Ошибка при проверке статуса черного списка. Повторите попытку через минуту."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:87
 msgid "General Settings"
-msgstr ""
+msgstr "Общие настройки"
 
 #: applications/luci-app-adblock-lean/root/usr/share/rpcd/acl.d/luci-app-adblock-lean.json:3
 msgid "Grant access to LuCI app adblock-lean"
-msgstr ""
+msgstr "Предоставить доступ к приложению LuCI adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:97
 msgid "Hagezi blocklists"
-msgstr ""
+msgstr "Блок-листы Хагези"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/create-config.js:12
-msgid ""
-"If you installed adblock-lean via this app, a config file should have been "
-"created for you, which means something went wrong and you should <a "
-"%s>create an Issue here</a>."
-msgstr ""
+msgid "If you installed adblock-lean via this app, a config file should have been created for you, which means something went wrong and you should <a %s>create an Issue here</a>."
+msgstr "Если вы установили adblock-lean через это приложение, для вас должен был быть создан файл конфигурации, что означает, что что-то пошло не так, и вам следует <a %s>создать проблему здесь</a>."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/config.js:11
-msgid ""
-"In most cases you should make configuration changes via the %s page, but if "
-"for some reason you want to view/edit the raw config file, you can do so "
-"here."
-msgstr ""
+msgid "In most cases you should make configuration changes via the %s page, but if for some reason you want to view/edit the raw config file, you can do so here."
+msgstr "В большинстве случаев вам следует вносить изменения в конфигурацию через страницу %s, но если по какой-то причине вы хотите просмотреть/отредактировать необработанный файл конфигурации, вы можете сделать это здесь."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:100
 msgid "Install adblock-lean"
-msgstr ""
+msgstr "Установите Adblock-Lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:10
 msgid "Installing adblock-lean"
-msgstr ""
+msgstr "Установка Adblock-Lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:62
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:72
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:112
 msgid "Large"
-msgstr ""
+msgstr "Большой"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:69
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:109
 msgid "Large-Relaxed"
-msgstr ""
+msgstr "Большой-Расслабленный"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:207
 msgid "List part failed action"
-msgstr ""
+msgstr "Часть списка, не удалось выполнить действие"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:54
 msgid "LuCI App update status"
-msgstr ""
+msgstr "Статус обновления приложения LuCI"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:219
 msgid "Max download retries"
-msgstr ""
+msgstr "Максимальное количество повторов загрузки"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:136
 msgid "Max file size (KB)"
-msgstr ""
+msgstr "Максимальный размер файла (КБ)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:148
 msgid "Max total size (KB)"
-msgstr ""
+msgstr "Максимальный общий размер (КБ)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:220
 msgid "Maximum number of download retries"
-msgstr ""
+msgstr "Максимальное количество повторов загрузки"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:137
 msgid "Maximum size of any individual downloaded blocklist part"
-msgstr ""
+msgstr "Максимальный размер любой отдельной загруженной части черного списка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:149
 msgid "Maximum total size of combined, processed blocklist"
-msgstr ""
+msgstr "Максимальный общий размер объединенного обработанного черного списка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:55
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:115
 msgid "Medium"
-msgstr ""
+msgstr "Середина"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:243
 msgid "Min allowlist part line count"
-msgstr ""
+msgstr "Минимальное количество строк в разрешенном списке"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:231
 msgid "Min blocklist part line count"
-msgstr ""
+msgstr "Минимальное количество строк в черном списке"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:160
 msgid "Min good lines"
-msgstr ""
+msgstr "Минимальное количество хороших строк"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:41
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:121
 msgid "Mini"
-msgstr ""
+msgstr "Мини"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:161
 msgid "Minimum number of good lines in final postprocessed blocklist"
-msgstr ""
+msgstr "Минимальное количество хороших строк в окончательном черном списке после постобработки."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:232
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:244
 msgid "Mininum number of lines of any individual downloaded part"
-msgstr ""
+msgstr "Минимальное количество строк любой отдельной загружаемой части"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/config.js:105
 msgid "Must select or provide at least one blocklist"
-msgstr ""
+msgstr "Необходимо выбрать или предоставить хотя бы один черный список."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-software.js:14
-msgid ""
-"NOTE: adblock-lean will continue to function as expected while this "
-"incompatability exists, the only functionality you are missing out on is the "
-"configuration form."
-msgstr ""
+msgid "NOTE: adblock-lean will continue to function as expected while this incompatability exists, the only functionality you are missing out on is the configuration form."
+msgstr "ПРИМЕЧАНИЕ. Adblock-lean будет продолжать работать должным образом, пока существует эта несовместимость. Единственная функция, которую вам не хватает, — это форма конфигурации."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/create-config.js:17
 msgid "Once you've created a config file, please reload this page."
-msgstr ""
+msgstr "После создания файла конфигурации перезагрузите эту страницу."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:26
 msgid "Or to fix it manually, SSH into your router and try executing %s"
-msgstr ""
+msgstr "Или, чтобы исправить это вручную, подключите SSH к маршрутизатору и попробуйте выполнить %s"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:39
-msgid ""
-"Or, if you'd like to manually update your config file, these are the changes "
-"that are needed:"
-msgstr ""
+msgid "Or, if you'd like to manually update your config file, these are the changes that are needed:"
+msgstr "Или, если вы хотите вручную обновить файл конфигурации, необходимо внести следующие изменения:"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:114
 msgid "Other blocklist urls"
-msgstr ""
+msgstr "Другие URL-адреса черного списка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/config.js:12
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:15
 msgid "Overview"
-msgstr ""
+msgstr "Обзор"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:96
 msgid "Pause Blocklist"
-msgstr ""
+msgstr "Приостановить черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:93
 msgid "Pausing"
-msgstr ""
+msgstr "Пауза"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/allowlist.js:15
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/blocklist.js:14
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/config.js:14
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/custom_script.js:15
 msgid "Please note"
-msgstr ""
+msgstr "Пожалуйста, обратите внимание"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:108
 msgid "Reload Blocklist"
-msgstr ""
+msgstr "Обновить черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:105
 msgid "Reloading"
-msgstr ""
+msgstr "Перезагрузка"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:40
 msgid "Remove old entries:"
-msgstr ""
+msgstr "Удалить старые записи:"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:32
 msgid "Reset Config File"
-msgstr ""
+msgstr "Сбросить файл конфигурации"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:11
 msgid "Resetting adblock-lean config file"
-msgstr ""
+msgstr "Сброс файла конфигурации Adblock-Lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:188
 msgid "Restart dnsmasq"
-msgstr ""
+msgstr "Перезапустите DNSmasq"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:189
-msgid ""
-"Restart dnsmasq if previous blocklist was extracted and before generation of "
-"new blocklist thereby to free up memory during generaiton of new blocklist"
-msgstr ""
+msgid "Restart dnsmasq if previous blocklist was extracted and before generation of new blocklist thereby to free up memory during generaiton of new blocklist"
+msgstr "Перезапустите DNSmasq, если предыдущий черный список был извлечен и перед созданием нового черного списка, чтобы освободить память во время создания нового черного списка."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:90
 msgid "Resume Blocklist"
-msgstr ""
+msgstr "Возобновить черный список"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:87
 msgid "Resuming"
-msgstr ""
+msgstr "Возобновление"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:36
-msgid ""
-"Select one of the pre-defined blocklist presets, each one intended for "
-"devices with a certain total memory capacity."
-msgstr ""
+msgid "Select one of the pre-defined blocklist presets, each one intended for devices with a certain total memory capacity."
+msgstr "Выберите один из предустановленных пресетов черного списка, каждый из которых предназначен для устройств с определенным общим объемом памяти."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:79
-msgid ""
-"Select the package(s) you would also like to install to make list processing "
-"significantly faster (doesn't affect DNS resolution speed). gawk (including "
-"dependencies) may consume around 1MB, so consider unselecting gawk if flash "
-"space is an issue."
-msgstr ""
+msgid "Select the package(s) you would also like to install to make list processing significantly faster (doesn't affect DNS resolution speed). gawk (including dependencies) may consume around 1MB, so consider unselecting gawk if flash space is an issue."
+msgstr "Выберите пакет(ы), которые вы также хотите установить, чтобы значительно ускорить обработку списка (не влияет на скорость разрешения DNS). gawk (включая зависимости) может занимать около 1 МБ, поэтому рассмотрите возможность отмены выбора gawk, если флэш-память является проблемой."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:38
 msgid "Service status"
-msgstr ""
+msgstr "Статус сервиса"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:48
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:118
 msgid "Small"
-msgstr ""
+msgstr "Маленький"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:256
 msgid "Start delay in seconds when service is started from system boot"
-msgstr ""
+msgstr "Задержка запуска в секундах при запуске службы при загрузке системы"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-software.js:11
-msgid ""
-"The currently installed versions of adblock-lean and luci-app-adblock-lean "
-"are not compatable with each other (they do not support the same config "
-"format)."
-msgstr ""
+msgid "The currently installed versions of adblock-lean and luci-app-adblock-lean are not compatable with each other (they do not support the same config format)."
+msgstr "Установленные в настоящее время версии adblock-lean и luci-app-adblock-lean несовместимы друг с другом (они не поддерживают один и тот же формат конфигурации)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/config.js:10
 msgid "This is the adblock-lean config file, stored at %s"
-msgstr ""
+msgstr "Это файл конфигурации с поддержкой adblock, хранящийся по адресу %s."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/custom_script.js:10
 msgid "This is the adblock-lean custom script, stored at %s"
-msgstr ""
+msgstr "Это пользовательский скрипт для блокировки рекламы, хранящийся по адресу %s."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/allowlist.js:11
-msgid ""
-"This is useful if the blocklist urls you subscribe to block something you "
-"need -- rather than having to manually pause/resume adblock-lean when you "
-"need to access the domain(s), or having to switch to a more permissive "
-"blocklist, you can just list the domain(s) here to ensure they don't get "
-"blocked."
-msgstr ""
+msgid "This is useful if the blocklist urls you subscribe to block something you need -- rather than having to manually pause/resume adblock-lean when you need to access the domain(s), or having to switch to a more permissive blocklist, you can just list the domain(s) here to ensure they don't get blocked."
+msgstr "Это полезно, если вы подписались на URL-адреса черного списка, чтобы заблокировать что-то, что вам нужно. Вместо того, чтобы вручную приостанавливать/возобновлять блокировку рекламы, когда вам нужно получить доступ к доменам, или переключаться на более разрешительный черный список, вы можете просто перечислить домены здесь, чтобы гарантировать, что они не будут заблокированы."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/blocklist.js:11
-msgid ""
-"This is useful if the blocklist urls you subscribe to miss something you "
-"want to block -- rather than having to switch to a more restrictive "
-"blocklist, you can just list the domain(s) here to ensure they get blocked."
-msgstr ""
+msgid "This is useful if the blocklist urls you subscribe to miss something you want to block -- rather than having to switch to a more restrictive blocklist, you can just list the domain(s) here to ensure they get blocked."
+msgstr "Это полезно, если URL-адреса черного списка, на которые вы подписаны, пропускают что-то, что вы хотите заблокировать — вместо того, чтобы переключаться на более строгий черный список, вы можете просто перечислить здесь домены, чтобы гарантировать, что они будут заблокированы."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/allowlist.js:10
 msgid "This is your local adblock-lean allowlist, stored at %s"
-msgstr ""
+msgstr "Это ваш локальный белый список без блокировки рекламы, хранящийся по адресу %s."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/blocklist.js:10
 msgid "This is your local adblock-lean blocklist, stored at %s"
-msgstr ""
+msgstr "Это ваш локальный черный список без рекламы, хранящийся по адресу %s."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:208
-msgid ""
-"This option applies to blocklist/allowlist parts which failed to download or "
-"couldn't pass validation checks<br /> SKIP - skip failed blocklist file part "
-"and continue blocklist generation<br /> STOP - stop blocklist generation "
-"(and fall back to previous blocklist if available)"
-msgstr ""
+msgid "This option applies to blocklist/allowlist parts which failed to download or couldn't pass validation checks<br /> SKIP - skip failed blocklist file part and continue blocklist generation<br /> STOP - stop blocklist generation (and fall back to previous blocklist if available)"
+msgstr "Эта опция применяется к частям черного/белого списка, которые не удалось загрузить или не смогли пройти проверку. <br /> SKIP — пропустить неудачную часть файла черного списка и продолжить создание черного списка. <br /> STOP — остановить создание черного списка (и вернуться к предыдущему черному списку, если он доступен)."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/custom_script.js:11
-msgid ""
-"This script should define the functions %s and %s, and one of these "
-"functions will be executed when adblock-lean completes the execution of some "
-"commands with the success or failure message passed in first argument."
-msgstr ""
+msgid "This script should define the functions %s and %s, and one of these functions will be executed when adblock-lean completes the execution of some commands with the success or failure message passed in first argument."
+msgstr "Этот скрипт должен определить функции %s и %s, и одна из этих функций будет выполнена, когда adblock-lean завершит выполнение некоторых команд с сообщением об успехе или сбое, переданным в первом аргументе."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:25
 msgid "To automatically reset it now, click the Reset button below."
-msgstr ""
+msgstr "Чтобы автоматически сбросить его сейчас, нажмите кнопку «Сбросить» ниже."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:29
-msgid ""
-"To install it now review and submit the form below, or <a %s>to install it "
-"manually follow the instructions here</a>."
-msgstr ""
+msgid "To install it now review and submit the form below, or <a %s>to install it manually follow the instructions here</a>."
+msgstr "Чтобы установить его сейчас, просмотрите и отправьте форму ниже или <a %s>, чтобы установить его вручную, следуйте инструкциям здесь </a>."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/edit-file.js:39
 msgid "Unable to save changes: %s"
-msgstr ""
+msgstr "Невозможно сохранить изменения: %s"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:37
 msgid "Unable to save modifications: %s"
-msgstr ""
+msgstr "Невозможно сохранить изменения: %s"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:159
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:179
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:214
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:239
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестный"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:221
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:310
 msgid "Up to date"
-msgstr ""
+msgstr "До настоящего времени"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:33
 msgid "Update Config File"
-msgstr ""
+msgstr "Обновить файл конфигурации"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:124
 msgid "Update LuCI App"
-msgstr ""
+msgstr "Обновите приложение LuCI"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:118
 msgid "Update adblock-lean"
-msgstr ""
+msgstr "Обновите adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:121
 msgid "Updating LuCI app..."
-msgstr ""
+msgstr "Обновление приложения LuCI..."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:12
 msgid "Updating adblock-lean config file"
-msgstr ""
+msgstr "Обновление файла конфигурации adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:115
 msgid "Updating adblock-lean..."
-msgstr ""
+msgstr "Обновление adblock-lean..."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:180
 msgid "Use compression"
-msgstr ""
+msgstr "Использовать сжатие"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:173
-msgid ""
-"Whether to perform sorting and deduplication of entries (usually doesn't "
-"cause much slowdown, uses a bit more memory)"
-msgstr ""
+msgid "Whether to perform sorting and deduplication of entries (usually doesn't cause much slowdown, uses a bit more memory)"
+msgstr "Следует ли выполнять сортировку и дедупликацию записей (обычно не вызывает большого замедления, использует немного больше памяти)"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:42
 msgid "Wrap values in double-quotes and/or remove inline comments:"
-msgstr ""
+msgstr "Заключите значения в двойные кавычки и/или удалите встроенные комментарии:"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/status/include/70_adblock-lean.js:36
-msgid ""
-"Your adblock-lean configuration file does not exist. Click <strong>Services -"
-"> adblock-lean</strong> to configure adblock-lean now."
-msgstr ""
+msgid "Your adblock-lean configuration file does not exist. Click <strong>Services -> adblock-lean</strong> to configure adblock-lean now."
+msgstr "Ваш файл конфигурации с поддержкой adblock-lean не существует. Нажмите <strong>Services -> adblock-lean</strong>, чтобы настроить adblock-lean сейчас."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/edit-file.js:36
-msgid ""
-"Your changes have been saved. Reload adblock-lean for changes to take effect."
-msgstr ""
+msgid "Your changes have been saved. Reload adblock-lean for changes to take effect."
+msgstr "Ваши изменения сохранены. Перезагрузите adblock-lean, чтобы изменения вступили в силу."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:17
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/status/include/70_adblock-lean.js:8
 #: applications/luci-app-adblock-lean/root/usr/share/luci/menu.d/luci-app-adblock-lean.json:3
 msgid "adblock-lean"
-msgstr ""
+msgstr "Adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:20
 msgid "adblock-lean config error"
-msgstr ""
+msgstr "Ошибка конфигурации adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/create-config.js:7
 msgid "adblock-lean config missing"
-msgstr ""
+msgstr "Отсутствует конфигурация adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:21
 msgid "adblock-lean config update needed"
-msgstr ""
+msgstr "Необходимо обновление конфигурации adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:79
-msgid ""
-"adblock-lean configuration options. For further information please check the "
-"<a style=\"font-weight: bold;\" href=\"https://github.com/lynxthecat/adblock-"
-"lean/blob/master/README.md\" target=\"_blank\" rel=\"noreferrer "
-"noopener\">online documentation</a>"
-msgstr ""
+msgid "adblock-lean configuration options. For further information please check the <a style=\"font-weight: bold;\" href=\"https://github.com/lynxthecat/adblock-lean/blob/master/README.md\" target=\"_blank\" rel=\"noreferrer noopener\">online documentation</a>"
+msgstr "Параметры конфигурации adblock-lean. Для получения дополнительной информации проверьте <a style=\"font-weight: bold;\" href=\"https://github.com/lynxthecat/adblock-lean/blob/master/README.md\" target=\"_blank\" rel=\"noreferrer noopener\">онлайн-документацию</a>"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/create-config.js:11
 msgid "adblock-lean is installed but the config file is missing."
-msgstr ""
+msgstr "Adblock-lean установлен, но файл конфигурации отсутствует."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:156
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:25
 msgid "adblock-lean is not installed"
-msgstr ""
+msgstr "Adblock-lean не установлен"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:198
 msgid "adblock-lean is performing an action: %s"
-msgstr ""
+msgstr "Adblock-lean выполняет действие: %s"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-software.js:7
 msgid "adblock-lean software update needed"
-msgstr ""
+msgstr "Необходимо обновление программного обеспечения adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:50
 msgid "adblock-lean update status"
-msgstr ""
+msgstr "Статус обновления adblock-lean"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:150
 msgid "adblock-lean will NOT autostart on boot"
-msgstr ""
+msgstr "Adblock-lean НЕ запускается автоматически при загрузке"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:144
 msgid "adblock-lean will autostart on boot"
-msgstr ""
+msgstr "Adblock-lean будет автоматически запускаться при загрузке"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/reset-config.js:24
 msgid "adblock-lean's config file has an error."
-msgstr ""
+msgstr "В файле конфигурации adblock-lean есть ошибка."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/update-config.js:25
 msgid "adblock-lean's config format has changed."
-msgstr ""
+msgstr "Формат конфигурации adblock-lean изменился."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/allowlist.js:17
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/blocklist.js:16
 msgid "add exactly one domain name per line."
-msgstr ""
+msgstr "Добавляйте ровно одно доменное имя в каждой строке."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:126
 msgid "dnsmasq allowlist urls"
-msgstr ""
+msgstr "URL-адреса белого списка DNSsmasq"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:115
 msgid "dnsmasq blocklist urls"
-msgstr ""
+msgstr "URL-адреса черного списка DNSmasq"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:98
-msgid ""
-"dnsmasq blocklists provided by hagezi. For blocklist information, please "
-"check the <a style=\"font-weight: bold;\" href=\"https://github.com/hagezi/"
-"dns-blocklists/blob/main/README.md\" target=\"_blank\" rel=\"noreferrer "
-"noopener\">online documentation</a>"
-msgstr ""
+msgid "dnsmasq blocklists provided by hagezi. For blocklist information, please check the <a style=\"font-weight: bold;\" href=\"https://github.com/hagezi/dns-blocklists/blob/main/README.md\" target=\"_blank\" rel=\"noreferrer noopener\">online documentation</a>"
+msgstr "Черные списки DNSmasq предоставлены hagezi. Информацию о черном списке можно найти в <a style=\"font-weight:bold;\" href=\"https://github.com/hagezi/dns-blocklists/blob/main/README.md\" target=\"_blank\" rel=\"noreferrer noopener\">онлайн-документации</a>."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:170
 msgid "dnsmasq is NOT running"
-msgstr ""
+msgstr "DNSmasq НЕ работает"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:167
 msgid "dnsmasq is running"
-msgstr ""
+msgstr "DNSmasq запущен"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/display-status.js:46
 msgid "dnsmasq status"
-msgstr ""
+msgstr "Статус DNSmasq"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:71
-msgid ""
-"for devices with 1024MB of RAM or more. This preset includes circa 1M "
-"entries and same default blocklist URLs as %s but the max values are more "
-"relaxed and allow for larger fluctuations in downloaded blocklist sizes"
-msgstr ""
+msgid "for devices with 1024MB of RAM or more. This preset includes circa 1M entries and same default blocklist URLs as %s but the max values are more relaxed and allow for larger fluctuations in downloaded blocklist sizes"
+msgstr "для устройств с 1024 МБ ОЗУ и более. Этот пресет включает около 1 миллиона записей и те же URL-адреса черного списка по умолчанию, что и %s, но максимальные значения более мягкие и допускают большие колебания размеров загружаемого черного списка."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:50
-msgid ""
-"for devices with 128MB of RAM. Aim for <300k entries. This preset includes "
-"circa 250k entries"
-msgstr ""
+msgid "for devices with 128MB of RAM. Aim for <300k entries. This preset includes circa 250k entries"
+msgstr "для устройств со 128 МБ ОЗУ. Стремитесь к <300 тыс. записей. Этот пресет включает около 250 тысяч записей."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:57
-msgid ""
-"for devices with 256MB of RAM. Aim for <600k entries. This preset includes "
-"circa 450k entries"
-msgstr ""
+msgid "for devices with 256MB of RAM. Aim for <600k entries. This preset includes circa 450k entries"
+msgstr "для устройств с 256 МБ ОЗУ. Стремитесь к <600 тыс. записей. Этот пресет включает около 450 тысяч записей."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:64
 msgid "for devices with 512MB of RAM. This preset includes circa 1M entries"
-msgstr ""
+msgstr "для устройств с 512 МБ ОЗУ. Этот пресет включает около 1 миллиона записей."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:43
-msgid ""
-"for devices with 64MB of RAM. Aim for <100k entries. This preset includes "
-"circa 85k entries"
-msgstr ""
+msgid "for devices with 64MB of RAM. Aim for <100k entries. This preset includes circa 85k entries"
+msgstr "для устройств с 64 МБ ОЗУ. Стремитесь к <100 тыс. записей. Этот пресет включает около 85 тысяч записей."
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/config.js:16
-msgid ""
-"you should not modify %s or %s as the Allowlist and Blocklist tabs will only "
-"work with the default paths."
-msgstr ""
+msgid "you should not modify %s or %s as the Allowlist and Blocklist tabs will only work with the default paths."
+msgstr "вам не следует изменять %s или %s, поскольку вкладки «Белый список» и «Черный список» будут работать только с путями по умолчанию."
