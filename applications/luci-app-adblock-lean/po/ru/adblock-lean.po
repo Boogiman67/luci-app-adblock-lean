@@ -206,7 +206,7 @@ msgstr "Большой"
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:69
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/adblock-lean/partials/install-abl.js:109
 msgid "Large-Relaxed"
-msgstr "Большой-Расслабленный"
+msgstr "Большой-облегченный"
 
 #: applications/luci-app-adblock-lean/htdocs/luci-static/resources/view/adblock-lean/overview.js:207
 msgid "List part failed action"
