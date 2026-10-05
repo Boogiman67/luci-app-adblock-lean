@@ -7,7 +7,7 @@
 # download it and then clean up after the build completes.
 
 # Download luci.mk
-wget https://raw.githubusercontent.com/openwrt/luci/openwrt-23.05/luci.mk
+wget https://raw.githubusercontent.com/openwrt/luci/openwrt-24.10/luci.mk
 
 # Execute 'act' to run the GitHub action locally
 # Requires https://github.com/nektos/act
